@@ -146,3 +146,5 @@
 2016-12-06 23:03:00,020 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Stats{totalTime=0.94, startTime=3870064469983, endTime=3870065413897}
 2016-12-06 23:03:00,020 [[poc-log-category].HTTP_Listener_Configuration.worker.02] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@edcb94. in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.02,5,main]. Active tasks: 0 (2 threads in a pool)
 2016-12-06 23:03:00,021 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@1a471c2. in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.01,5,main]. Active tasks: 0 (2 threads in a pool)
+
+fhaslhfakf];a
