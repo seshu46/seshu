@@ -1,0 +1,148 @@
+2016-12-06 22:51:26,017 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'poc-log-category'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-12-06 22:51:26,323 [[poc-log-category].Mule.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting Work: org.mule.context.notification.ServerNotificationManager@14433db in Thread[[poc-log-category].Mule.01,5,main]. Active tasks: 1 (1 threads in a pool)
+2016-12-06 22:51:26,323 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-12-06 22:51:26,523 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-12-06 22:51:26,745 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-12-06 22:51:26,745 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2016-12-06 22:51:26,857 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@13957fe: startup date [Tue Dec 06 22:51:26 IST 2016]; root of context hierarchy
+2016-12-06 22:51:28,595 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-12-06 22:51:29,969 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-12-06 22:51:30,986 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-12-06 22:51:30,986 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: poc-log-categoryFlow
+2016-12-06 22:51:30,986 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@22ac7f
+2016-12-06 22:51:31,047 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: poc-log-categoryFlow.stage1
+2016-12-06 22:51:31,097 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\user\AnypointStudio\Log-POC\.mule\.\.mule\poc-log-category\queue-tx-log\tx1.log and C:\Users\user\AnypointStudio\Log-POC\.mule\.\.mule\poc-log-category\queue-tx-log\tx2.log
+2016-12-06 22:51:31,107 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\user\AnypointStudio\Log-POC\.mule\.\.mule\poc-log-category\queue-xa-tx-log\tx1.log and C:\Users\user\AnypointStudio\Log-POC\.mule\.\.mule\poc-log-category\queue-xa-tx-log\tx2.log
+2016-12-06 22:51:31,566 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\user\AnypointStudio\Log-POC\.mule\apps\poc-log-category\poc-log-category.xml'}]"
+2016-12-06 22:51:31,566 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\user\AnypointStudio\Log-POC\.mule\apps\poc-log-category\poc-log-category.xml'}]"
+2016-12-06 22:51:31,566 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'poc-log-category'                          +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-12-06 22:51:31,566 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-12-06 22:51:31,566 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-12-06 22:51:31,655 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://localhost:8989
+2016-12-06 22:51:31,670 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-12-06 22:51:31,670 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-12-06 22:51:31,670 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: poc-log-categoryFlow
+2016-12-06 22:51:31,670 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: poc-log-categoryFlow.stage1
+2016-12-06 22:51:31,686 [[poc-log-category].poc-log-categoryFlow.stage1.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting Work: org.mule.processor.LaxSedaStageInterceptingMessageProcessor in Thread[[poc-log-category].poc-log-categoryFlow.stage1.01,5,main]. Active tasks: 1 (1 threads in a pool)
+2016-12-06 22:51:31,748 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-12-06 22:51:31,780 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: poc-log-category                                      *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-12-06 22:52:06,494 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@156a6b0 in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.01,5,main]. Active tasks: 1 (1 threads in a pool)
+2016-12-06 22:52:06,790 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.throttling.ThrottlingPhase - No throttling policy found for endpoint class: org.mule.module.http.internal.listener.DefaultHttpListener
+2016-12-06 22:52:06,814 [[poc-log-category].HTTP_Listener_Configuration.worker.01] INFO  #[flowVars.flow] - Inside the service  --- C:\Users\user\AnypointStudio\Log-POC\.mule\logs\log4j-research.log
+2016-12-06 22:52:06,845 [[poc-log-category].HTTP_Listener_Configuration.worker.01] WARN  hello - ****Capture Payload: null****
+2016-12-06 22:52:06,970 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Stats{totalTime=447.20, startTime=3216540778977, endTime=3216987974978}
+2016-12-06 22:52:06,970 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@156a6b0. in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.01,5,main]. Active tasks: 0 (1 threads in a pool)
+2016-12-06 22:52:09,428 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@729d41 in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.01,5,main]. Active tasks: 1 (1 threads in a pool)
+2016-12-06 22:52:09,429 [[poc-log-category].HTTP_Listener_Configuration.worker.02] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@17d741b in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.02,5,main]. Active tasks: 2 (2 threads in a pool)
+2016-12-06 22:52:09,463 [[poc-log-category].HTTP_Listener_Configuration.worker.02] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Stats{totalTime=33.42, startTime=3219474873362, endTime=3219508289657}
+2016-12-06 22:52:09,463 [[poc-log-category].HTTP_Listener_Configuration.worker.02] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@17d741b. in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.02,5,main]. Active tasks: 1 (2 threads in a pool)
+2016-12-06 22:52:09,464 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Stats{totalTime=35.70, startTime=3219473135924, endTime=3219508831676}
+2016-12-06 22:52:09,464 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@729d41. in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.01,5,main]. Active tasks: 0 (2 threads in a pool)
+2016-12-06 23:02:48,033 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'poc-log-category'                          +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-12-06 23:02:48,033 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: poc-log-categoryFlow
+2016-12-06 23:02:48,043 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: poc-log-categoryFlow.stage1
+2016-12-06 23:02:48,222 [[poc-log-category].poc-log-categoryFlow.stage1.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Stats{totalTime=676522.19, startTime=3181745962958, endTime=3858268126456}
+2016-12-06 23:02:48,222 [[poc-log-category].poc-log-categoryFlow.stage1.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished Work: org.mule.processor.LaxSedaStageInterceptingMessageProcessor. in Thread[[poc-log-category].poc-log-categoryFlow.stage1.01,5,main]. Active tasks: 0 (1 threads in a pool)
+2016-12-06 23:02:48,222 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2016-12-06 23:02:48,222 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://localhost:8989
+2016-12-06 23:02:48,232 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2016-12-06 23:02:48,232 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2016-12-06 23:02:48,232 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'poc-log-category'                         +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-12-06 23:02:48,232 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2016-12-06 23:02:48,242 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: poc-log-categoryFlow
+2016-12-06 23:02:48,242 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: poc-log-categoryFlow.stage1
+2016-12-06 23:02:48,242 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2016-12-06 23:02:48,681 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@13957fe: startup date [Tue Dec 06 22:51:26 IST 2016]; root of context hierarchy
+2016-12-06 23:02:48,851 [[poc-log-category].Mule.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Stats{totalTime=682525.50, startTime=3176371360555, endTime=3858896873176}
+2016-12-06 23:02:48,851 [[poc-log-category].Mule.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished Work: org.mule.context.notification.ServerNotificationManager@14433db. in Thread[[poc-log-category].Mule.01,5,main]. Active tasks: 0 (1 threads in a pool)
+2016-12-06 23:02:48,892 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "poc-log-category" shut down normally on: 12/6/16      *
+* 11:02 PM                                                           *
+* Up for: 0 days, 0 hours, 11 mins, 17.286 sec                       *
+**********************************************************************
+2016-12-06 23:02:49,304 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'poc-log-category'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-12-06 23:02:49,314 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-12-06 23:02:49,324 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-12-06 23:02:49,334 [[poc-log-category].Mule.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting Work: org.mule.context.notification.ServerNotificationManager@271398 in Thread[[poc-log-category].Mule.01,1,main]. Active tasks: 1 (1 threads in a pool)
+2016-12-06 23:02:49,369 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-12-06 23:02:49,372 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2016-12-06 23:02:49,380 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@f30ce5: startup date [Tue Dec 06 23:02:49 IST 2016]; root of context hierarchy
+2016-12-06 23:02:49,860 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-12-06 23:02:50,067 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-12-06 23:02:50,067 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: poc-log-categoryFlow
+2016-12-06 23:02:50,067 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@54ec2e
+2016-12-06 23:02:50,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: poc-log-categoryFlow.stage1
+2016-12-06 23:02:50,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\user\AnypointStudio\Log-POC\.mule\.\.mule\poc-log-category\queue-tx-log\tx1.log and C:\Users\user\AnypointStudio\Log-POC\.mule\.\.mule\poc-log-category\queue-tx-log\tx2.log
+2016-12-06 23:02:50,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\user\AnypointStudio\Log-POC\.mule\.\.mule\poc-log-category\queue-xa-tx-log\tx1.log and C:\Users\user\AnypointStudio\Log-POC\.mule\.\.mule\poc-log-category\queue-xa-tx-log\tx2.log
+2016-12-06 23:02:50,187 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\user\AnypointStudio\Log-POC\.mule\apps\poc-log-category\poc-log-category.xml'}]"
+2016-12-06 23:02:50,187 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\user\AnypointStudio\Log-POC\.mule\apps\poc-log-category\poc-log-category.xml'}]"
+2016-12-06 23:02:50,187 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'poc-log-category'                          +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-12-06 23:02:50,187 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-12-06 23:02:50,187 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-12-06 23:02:50,217 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://localhost:8989
+2016-12-06 23:02:50,217 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-12-06 23:02:50,217 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-12-06 23:02:50,217 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: poc-log-categoryFlow
+2016-12-06 23:02:50,217 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: poc-log-categoryFlow.stage1
+2016-12-06 23:02:50,247 [[poc-log-category].poc-log-categoryFlow.stage1.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting Work: org.mule.processor.LaxSedaStageInterceptingMessageProcessor in Thread[[poc-log-category].poc-log-categoryFlow.stage1.01,1,main]. Active tasks: 1 (1 threads in a pool)
+2016-12-06 23:02:50,257 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-12-06 23:02:50,268 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: poc-log-category                                      *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-12-06 23:02:58,722 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@1500f4b in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.01,5,main]. Active tasks: 1 (1 threads in a pool)
+2016-12-06 23:02:58,725 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.throttling.ThrottlingPhase - No throttling policy found for endpoint class: org.mule.module.http.internal.listener.DefaultHttpListener
+2016-12-06 23:02:58,726 [[poc-log-category].HTTP_Listener_Configuration.worker.01] INFO  #[flowVars.flow] - Inside the service  --- C:\Users\user\AnypointStudio\Log-POC\.mule\logs\log4j-research.log
+2016-12-06 23:02:58,742 [[poc-log-category].HTTP_Listener_Configuration.worker.01] WARN  hello - ****Capture Payload: {NullPayload}****
+2016-12-06 23:02:58,806 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Stats{totalTime=83.72, startTime=3868766964657, endTime=3868850686583}
+2016-12-06 23:02:58,806 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@1500f4b. in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.01,5,main]. Active tasks: 0 (1 threads in a pool)
+2016-12-06 23:03:00,019 [[poc-log-category].HTTP_Listener_Configuration.worker.02] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@edcb94 in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.02,5,main]. Active tasks: 2 (2 threads in a pool)
+2016-12-06 23:03:00,019 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Starting org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@1a471c2 in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.01,5,main]. Active tasks: 1 (2 threads in a pool)
+2016-12-06 23:03:00,020 [[poc-log-category].HTTP_Listener_Configuration.worker.02] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Stats{totalTime=1.00, startTime=3870064178956, endTime=3870065180357}
+2016-12-06 23:03:00,020 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Stats{totalTime=0.94, startTime=3870064469983, endTime=3870065413897}
+2016-12-06 23:03:00,020 [[poc-log-category].HTTP_Listener_Configuration.worker.02] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@edcb94. in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.02,5,main]. Active tasks: 0 (2 threads in a pool)
+2016-12-06 23:03:00,021 [[poc-log-category].HTTP_Listener_Configuration.worker.01] DEBUG com.mulesoft.mule.config.pool.MonitoredThreadPoolExecutor - Finished org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable@1a471c2. in Thread[[poc-log-category].HTTP_Listener_Configuration.worker.01,5,main]. Active tasks: 0 (2 threads in a pool)
